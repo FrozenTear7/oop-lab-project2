@@ -1,3 +1,14 @@
+import com.google.gson.annotations.SerializedName;
+
 public class SensorIdInfo {
-    private double airQualityIndex, pm25, pm10, pressure, humidity, temperature;
+    @SerializedName("currentMeasurements")
+    private Measurements measurements;
+
+    @SerializedName("history")
+    private MeasurementsHistory[] history;
+
+    public void printInfo () {
+        System.out.print(measurements);
+        System.out.print(history);
+    }
 }
