@@ -7,8 +7,13 @@ public class SensorIdInfo {
     @SerializedName("history")
     private MeasurementsHistory[] history;
 
-    public void printInfo () {
-        System.out.print(measurements);
-        System.out.print(history);
+    public void printCurrentInfo () {
+        measurements.printInfo();
+    }
+
+    public void printHistoryInfo () {
+        for(MeasurementsHistory historyInfo: history) {
+            historyInfo.printInfo();
+        }
     }
 }
