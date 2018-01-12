@@ -8,10 +8,10 @@ import java.io.IOException;
 public class InputHandler {
     private String args[];
 
-    @Option(name = "--apikey", usage = "Apikey provided by user")
+    @Option(name = "--api-key", usage = "Apikey provided by user")
     private String myApikey = "710e96247a0a4e05bb5b65c4a1c9f532";
 
-    @Option(name = "--sensorid", usage = "Sensor id provided by user")
+    @Option(name = "--sensor-id", usage = "Sensor id provided by user")
     private String sensorId = null;
 
     @Option(name = "--latitude", usage = "Latitude provided by user")

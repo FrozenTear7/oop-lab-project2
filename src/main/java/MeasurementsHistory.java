@@ -7,7 +7,9 @@ public class MeasurementsHistory {
     private Measurements measurements;
 
     public void printInfo() {
-        System.out.println("Sensor information from: " + fromDateTime + " to: " + tillDateTime + "\n");
+        System.out.println("___________________________");
+        System.out.println("Sensor information from: " + fromDateTime + " to: " + tillDateTime);
+        System.out.println("‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾");
         measurements.printInfo();
     }
 }

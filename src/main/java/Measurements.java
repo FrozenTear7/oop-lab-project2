@@ -11,12 +11,16 @@ public class Measurements {
     }
 
     public void printInfo() {
-        System.out.println("Current sensor information: \n");
-        System.out.println("Air quality index: " + round(airQualityIndex, 2));
-        System.out.println("Pm 2.5: " + round(pm25, 2));
-        System.out.println("Pm 10: " + round(pm10, 2));
-        System.out.println("Pressure: " + round(pressure, 2));
-        System.out.println("Humidity: " + round(humidity, 2));
-        System.out.println("Temperature: " + round(temperature, 2) + "\n");
+        System.out.println("___________________");
+        System.out.println("Sensor information:");
+        System.out.println("‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾");
+        System.out.println("______________________________________________________________________________________________________________________");
+        System.out.print("Air quality index: " + round(airQualityIndex, 2));
+        System.out.print(" | Pm 2.5: " + round(pm25, 2));
+        System.out.print(" | Pm 10: " + round(pm10, 2));
+        System.out.print(" | Pressure: " + round(pressure, 2));
+        System.out.print(" | Humidity: " + round(humidity, 2));
+        System.out.print(" | Temperature: " + round(temperature, 2) + "\n");
+        System.out.println("‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾");
     }
 }
