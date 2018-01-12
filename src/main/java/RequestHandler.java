@@ -5,6 +5,8 @@ import java.net.URL;
 
 public class RequestHandler {
     public String getSensorInfo(String myUrl, String myApikey) throws Exception {
+        RequestHandler requestHandler = new RequestHandler();
+
         StringBuilder result = new StringBuilder();
         URL url = new URL(myUrl);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
