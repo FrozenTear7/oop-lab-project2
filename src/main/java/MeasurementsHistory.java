@@ -7,9 +7,10 @@ public class MeasurementsHistory {
     private Measurements measurements;
 
     public void printInfo() {
-        System.out.println("___________________________");
-        System.out.println("Sensor information from: " + fromDateTime + " to: " + tillDateTime);
-        System.out.println("‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾");
+        System.out.println("__________________________");
+        System.out.println("From: " + fromDateTime);
+        System.out.println("To:   " + tillDateTime);
+        System.out.println("‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾");
         measurements.printInfo();
     }
 }
