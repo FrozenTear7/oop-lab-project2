@@ -7,7 +7,7 @@ public class InputHandler {
     private String args[];
 
     @Option(name = "--api-key", usage = "Apikey provided by user")
-    private String myApikey = "710e96247a0a4e05bb5b65c4a1c9f532";
+    private String myApikey;
 
     @Option(name = "--sensor-id", usage = "Sensor id provided by user")
     private String sensorId = null;
